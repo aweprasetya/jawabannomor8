@@ -40,7 +40,8 @@ def main():
     mydata = {'_token':'DTbhuDwYYoief5OtITNnfZKjwckej1ZJpL0vnpzq', 'tenant_id':'1', 'log':'LOG_LOGIN', 'email':'academy.babastudio@tester.com', 'password':'12345678'}
 
     target_page = requests.post(auth_url, data = mydata)
-    print(target_page.text) # Ini data yang bisa diolah.
+    # Ini data yang bisa diolah.
+    print(target_page.text) 
 
 if __name__=="__main__":
     main()
